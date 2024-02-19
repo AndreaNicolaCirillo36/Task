@@ -2,7 +2,7 @@ package com.CirilloAndreaNicola.Task.controller;
 
 import com.CirilloAndreaNicola.Task.Entity.Task;
 import com.CirilloAndreaNicola.Task.exception.TaskNotFoundException;
-import com.CirilloAndreaNicola.Task.service.taskService.TaskService;
+import com.CirilloAndreaNicola.Task.service.TaskService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

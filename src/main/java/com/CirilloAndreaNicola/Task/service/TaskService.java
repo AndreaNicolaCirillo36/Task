@@ -1,4 +1,4 @@
-package com.CirilloAndreaNicola.Task.service.taskService;
+package com.CirilloAndreaNicola.Task.service;
 
 import com.CirilloAndreaNicola.Task.Entity.Task;
 

@@ -1,8 +1,9 @@
-package com.CirilloAndreaNicola.Task.service.taskService;
+package com.CirilloAndreaNicola.Task.service;
 
 import com.CirilloAndreaNicola.Task.Entity.Task;
 import com.CirilloAndreaNicola.Task.exception.TaskNotFoundException;
 import com.CirilloAndreaNicola.Task.repository.TaskRepository;
+import com.CirilloAndreaNicola.Task.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class TaskServiceImpl implements TaskService{
+public class TaskServiceImpl implements TaskService {
 
     private final TaskRepository taskRepository;
 
